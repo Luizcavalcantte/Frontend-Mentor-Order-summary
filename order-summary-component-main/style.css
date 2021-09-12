@@ -91,3 +91,15 @@ h1 {
 .proceed:hover {
   background-color: hsl(223, 47%, 23%);
 }
+
+@media (max-width: 400px) {
+  .container {
+    width: 300px;
+  }
+  .plan {
+    width: 250px;
+  }
+  .plan .txt {
+    margin-right: 15px;
+  }
+}
